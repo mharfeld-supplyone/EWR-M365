@@ -1,0 +1,142 @@
+Assigning Enterprisepack license to aatchison@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to andreacoleman@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to aclemmons@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to ajernigan@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to amelton@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to apaul@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to bchastang@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to bhayes@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to chammond@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to cpeaks@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to datkins@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to dchandler@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to djackson@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to dlowell@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to dmcmillan@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to dwilliams@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to elong@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to fcavin@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to ftaylor@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to gmunson@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to hweatherford@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to hbrooks@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to jdegenhardt@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to jjohnson@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to jpavao@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to jpost@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to jrieben@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to jsutton@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to jthrailkill@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to jward@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to kayeni@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to kennybrooks@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to kimberlysmith@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to kweldon@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to llangham@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to lmckee@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to mcotney@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to mgills@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to mkellerman@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to meswann@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to nbrewster@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to pmorris@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to rhadley@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to rjuarez@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to rkendrick@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to rpost@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to rzuniga@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to tknight@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to tmalone@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to trighter@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to tspiller@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to twalker@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to twilliams@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to wdonald@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to yhooks@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to zmckee@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to ltaylor@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to chadwickwilliams@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to GLF-talapstar126@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to GLF-talbobstsfg@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to GLF-talflexo32@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to GLF-talflexo50@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to GLF-talwardrotary@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to GLF-bmapstar110@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to GLF-bmbobstsfg@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to GLF-bmbreak@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to GLF-bmflexo37@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to GLF-bmjumbo@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to GLF-bmrotary66@supplyone.com
+License assigned successfully
+Assigning Enterprisepack license to GLF-bmprintshop@supplyone.com
+License assignment failed
+Assigning Enterprisepack license to GLF-talprintshop@supplyone.com
+License assignment failed
