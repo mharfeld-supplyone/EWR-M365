@@ -3,6 +3,8 @@ $Filter = "((((Company -eq 'BELL') -and (RecipientTypeDetails -eq 'UserMailbox')
 
 New-DynamicDistributionGroup -Name "EWR ALL" -DisplayName "BELL All Employees" -Alias AllArchitects -PrimarySmtpAddress EWR-allusers@supplyone.com -RecipientFilter $Filter
 
-#manually set additional attributes.  this part of the script does not work
-#Set-DynamicDistributionGroup -Identity EWR-allusers -ManagedBy "Ben Hernandez" -MailTip "Distribution List for All SupplyOne BELL Employees"
-#Set-DynamicDistributionGroup -Identity EWR-allusers@supplyone.com -RecipientFilter $Filter
+$group = Get-DynamicDistributionGroup -Identity "GLF ALL"
+
+Get-Recipient -RecipientPreviewFilter $group.RecipientFilter | Select-Object PrimarySmtpAddress
+
+#manually set owner(s) attributes
