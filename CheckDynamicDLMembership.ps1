@@ -1,0 +1,1 @@
+Get-Recipient -RecipientPreviewFilter (Get-DynamicDistributionGroup -Identity "BELL ALL").RecipientFilter | Select-Object DisplayName, PrimarySmtpAddress
