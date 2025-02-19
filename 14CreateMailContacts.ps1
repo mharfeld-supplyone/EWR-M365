@@ -49,7 +49,7 @@ $logFile = "C:\temp\ImportMailContacts_$(Get-Date -Format yyyyMMdd_HHmmss).log"
 
 # Import the CSV file 
 
-$contacts = Import-Csv -Path "C:\NewEnglandCSV\MailContacts.csv" 
+$contacts = Import-Csv -Path "C:\CSV\Prod\EWR\BellMailContacts.csv" 
 
  
 
