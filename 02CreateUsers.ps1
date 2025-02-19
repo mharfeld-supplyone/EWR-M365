@@ -43,7 +43,7 @@ Connect-MgGraph -Scopes "User.ReadWrite.All"
 
 # Import the CSV file 
 
-$users = Import-Csv -Path "C:\CSV\Prod\GLF\GLFusers2.csv" 
+$users = Import-Csv -Path "C:\CSV\Prod\EWR\EWRusers.csv" 
 
  
 
