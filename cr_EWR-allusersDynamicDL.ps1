@@ -2,9 +2,7 @@ $Filter = "((((Company -eq 'BELL') -and (RecipientTypeDetails -eq 'UserMailbox')
 
 New-DynamicDistributionGroup -Name "EWR ALL" -DisplayName "EWR All Employees" -Alias AllArchitects -PrimarySmtpAddress EWR-allusers@supplyone.com -RecipientFilter $Filter
 
-New-DynamicDistributionGroup -Name "EWR ALL" -DisplayName "BELL All Employees" -Alias AllArchitects -PrimarySmtpAddress EWR-allusers@supplyone.com -RecipientFilter $Filter
-
-$group = Get-DynamicDistributionGroup -Identity "GLF ALL"
+$group = Get-DynamicDistributionGroup -Identity "EWR ALL"
 
 Get-Recipient -RecipientPreviewFilter $group.RecipientFilter | Select-Object PrimarySmtpAddress
 
