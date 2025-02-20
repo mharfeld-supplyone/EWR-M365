@@ -42,7 +42,7 @@ $logFile = "C:\Logs\SetMailboxForwarding_$(Get-Date -Format yyyyMMdd_HHmmss).log
 
 # Import the CSV file 
 
-$users = Import-Csv -Path "C:\CSV\Sandbox\CCB\forwarding.csv"
+$users = Import-Csv -Path "C:\CSV\Prod\EWR\EWRforwarding.csv"
 
 # Loop through each user in the CSV file 
 
