@@ -30,13 +30,13 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
 
 # Modules: 
 
-Install-Module ExchangeOnlineManagement 
+#Install-Module ExchangeOnlineManagement 
 
 Import-Module ExchangeOnlineManagement 
 
 # Connect to Exchange Online 
 
-Connect-ExchangeOnline 
+Connect-ExchangeOnline -UserPrincipalName sharegate@bellcontainer.com
 
 $logFile = "C:\Logs\SetMailboxForwarding_$(Get-Date -Format yyyyMMdd_HHmmss).log" 
 
