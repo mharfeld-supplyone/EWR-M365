@@ -38,7 +38,7 @@ Connect-MgGraph -Scopes "User.ReadWrite.All", "UserAuthenticationMethod.ReadWrit
 
 # Define the path to your CSV file 
 
-$csvPath = "C:\sandbox\disable.csv" 
+$csvPath = "C:\CSV\Prod\EWR\EWRdisable.csv" 
 
 # Create an empty array to store the user objects 
 
