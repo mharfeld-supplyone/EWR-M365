@@ -1,4 +1,4 @@
-#Connect-ExchangeOnline -UserPrincipalName sharegate@supplyone.com
+Connect-ExchangeOnline -UserPrincipalName sharegate@supplyone.com
 
 # Import the CSV file
 $users = Import-Csv -Path "C:\CSV\Prod\EWR\EWRUnhideFromGAL.csv"
