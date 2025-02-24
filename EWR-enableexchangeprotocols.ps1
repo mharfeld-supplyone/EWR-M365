@@ -8,11 +8,11 @@ foreach ($User in $Users) {
     $Email = $User.EmailAddress
     Write-Host "enabling protocols for $Email" -ForegroundColor Yellow
 
-    Set-CASMailbox -Identity $Email -OWAEnabled $false
-    Set-CASMailbox -Identity $Email -ActiveSyncEnabled $false
-    Set-CASMailbox -Identity $Email -ImapEnabled $false
-    Set-CASMailbox -Identity $Email -PopEnabled $false
-    Set-CASMailbox -Identity $Email -MAPIEnabled $false
+    Set-CASMailbox -Identity $Email -OWAEnabled $true
+    Set-CASMailbox -Identity $Email -ActiveSyncEnabled $true
+    Set-CASMailbox -Identity $Email -ImapEnabled $true
+    Set-CASMailbox -Identity $Email -PopEnabled $true
+    Set-CASMailbox -Identity $Email -MAPIEnabled $true
 }
 
 Write-Host "Protocols enabled for all users in CSV!" -ForegroundColor Green
