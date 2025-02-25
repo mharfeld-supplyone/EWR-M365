@@ -1,7 +1,7 @@
 # Import the CSV file
 Connect-ExchangeOnline
 
-$Users = Import-Csv -Path "C:\CSV\Prod\EWR\EWRdisableprotocols.csv"
+$Users = Import-Csv -Path "C:\Data\EWRdisable.csv"
 
 # Loop through each user and disable protocols
 foreach ($User in $Users) {
