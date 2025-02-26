@@ -5,8 +5,8 @@ $Users = Import-Csv -Path "C:\Data\EWRdisable.csv"
 
 # Loop through each user and disable protocols
 foreach ($User in $Users) {
-    $Email = $User.EmailAddress
-    Write-Host "enabling protocols for $Email" -ForegroundColor Yellow
+    $Email = $User.UserPrincipalName
+    Write-Host "disabling protocols for $Email" -ForegroundColor Yellow
 
     Set-CASMailbox -Identity $Email -OWAEnabled $false
     Set-CASMailbox -Identity $Email -ActiveSyncEnabled $false
@@ -15,4 +15,4 @@ foreach ($User in $Users) {
     Set-CASMailbox -Identity $Email -MAPIEnabled $false
 }
 
-Write-Host "Protocols enabled for all users in CSV!" -ForegroundColor Green
+Write-Host "Protocols disabled for all users in CSV!" -ForegroundColor Green
