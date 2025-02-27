@@ -39,45 +39,31 @@ Connect-MgGraph -Scopes "User.ReadWrite.All", "UserAuthenticationMethod.ReadWrit
 
 $csvPath = "C:\Data\EWRdisable.csv" 
 
-# Create an empty array to store the user objects 
-
-#$users = @() 
-
 # Import the CSV file and search for users 
 
-Import-Csv -Path $csvPath | ForEach-Object { 
+$users = Import-Csv -Path $csvPath
 
-    $upn = $_.UserPrincipalName 
+foreach ($user in $users) {
 
-    $user = Get-MgUser -Search "UserPrincipalName:$upn" -ConsistencyLevel eventual -Verbose 
+     Write-Host "User: $user.UserPrincipalName " 
+     $upn = Get-ADUser -identity $user.UserPrincipalName
 
-    if ($user) { 
+    if ($upn.id) { 
 
-        # Rotate the user's password 
-
- #       $params = @{ 
-
-  #          newPassword = "Cuyo5459" 
-
-   #     } 
-
-       # $authenticationMethodId = "28c10230-6103-485e-b985-444c60001490" 
-
-       # Reset-MgUserAuthenticationMethodPassword -UserId $user.Id -AuthenticationMethodId $authenticationMethodId -BodyParameter $params 
-
+       
         # Revoke the user's refresh tokens 
 
-        Revoke-MgUserSignInSession -UserId $user.Id 
+        Revoke-MgUserSignInSession -UserId $upn.Id 
 
         # Disable the user account 
 
-        Update-MgUser -UserId $user.Id -AccountEnabled:$false 
+        Update-MgUser -UserId $upn.Id -AccountEnabled:$false 
 
-        Write-Host "User found and processed: $($user.DisplayName)" 
+        Write-Host "User found and processed: $($upn.DisplayName)" 
 
     } else { 
 
-        Write-Host "User not found: $upn" 
+        Write-Host "User not found: $user.UserPrincipalName" 
 
     } 
 
